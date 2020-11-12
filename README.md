@@ -6,3 +6,4 @@ To run this game, follow the steps:
 4. Activate virtualenv by command: `source .venv/bin/activate`
 5. Install required python packages by command: `pip install -r requirements.txt`
 6. Once you installed required packages run game by command: `python main.py`
+7. You can play now :)

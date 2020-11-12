@@ -26,7 +26,7 @@ class TetrisGame:
             MoveInitial.move(self.board, board_shape_element)
             self.print_board(current_shape=board_shape_element)
 
-            while self.board.has_shape_stuck_down(board_shape_element):  
+            while self.board.has_shape_stuck_bottom(board_shape_element):
                 move_type = self.get_user_move() 
                 self.board.put_shape_for_move(board_shape_element, move_type)
                 self.print_board(current_shape=board_shape_element)

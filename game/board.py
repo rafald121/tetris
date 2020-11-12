@@ -75,7 +75,7 @@ class Board:
         if move_type.can_move(board=self, shape=board_shape_element):
             move_type.move(board=self, shape=board_shape_element)
 
-    def has_shape_stuck_down(self, board_shape_element: BoardShapeElement) -> bool:
+    def has_shape_stuck_bottom(self, board_shape_element: BoardShapeElement) -> bool:
         """
         Get know if current BoardShapeElement is able to move down
         or it reach the bottom
